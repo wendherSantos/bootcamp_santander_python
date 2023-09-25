@@ -22,7 +22,7 @@ def get_user(id):
 
 
 # Leitura do arquivo CSV
-ARQUIVO = "C:\\Users\\wendh\\projects\\bootcamp_santander_python\\02_trilha-python-dio\\SDW2023.csv"
+ARQUIVO = "C:\\Users\\wendh\\projects\\bootcamp_santander_python\\02_trilha-python\\SDW2023.csv"
 
 # Configuração da API
 SDW2023_API_URL = "https://sdw-2023-prd.up.railway.app"
@@ -43,7 +43,7 @@ logging.info(f"Número de usuários válidos: {len(users)}")
 
 # Substitua o texto TODO por sua API Key da OpenAI, ela será salva como uma variável de ambiente
 OPENAI_API_KEY = (
-    "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"  # virouviral.ofc@gmail.com
+    "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"  # virouviral.ofc@gmail.com
 )
 
 openai.api_key = OPENAI_API_KEY
@@ -52,7 +52,7 @@ openai.api_key = OPENAI_API_KEY
 # Função para gerar notícias com tratamento de erros
 def generate_ai_news(user):
     try:
-        prompt = f"Você é um especialista em marketing bancário.\nCrie uma mensagem para o usuário '{user['name']}' sobre a importância dos investimentos (máximo de 100 caracteres)"
+        prompt = f"Você é um especialista em marketing bancário.\nCrie uma mensagem completa para o usuário '{user['name']}' sobre a importância dos investimentos (máximo de 100 caracteres)"
         completion = openai.Completion.create(
             engine="text-davinci-002",
             prompt=prompt,
