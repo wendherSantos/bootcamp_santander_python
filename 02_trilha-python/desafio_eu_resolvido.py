@@ -1,8 +1,9 @@
-import pandas as pd
-import requests
-import json
-import openai
-import logging
+import pandas as pd  # Biblioteca pandas e a renomeia como 'pd' para facilitar o uso.
+import requests  # Usada para fazer solicitações HTTP, como GET ou POST.
+import json  # Permite trabalhar com dados no formato JSON.
+import openai  # Usada para interagir com o GPT-4 da OpenAI.
+import logging  # Usada para registrar informações de log durante a execução do programa.
+
 
 # Configuração de logging
 logging.basicConfig(

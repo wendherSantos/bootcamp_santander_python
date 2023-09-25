@@ -1,8 +1,9 @@
 # importação de bibliotecas
-import pandas as pd
-import requests
-import json
-import openai
+import pandas as pd  # Biblioteca pandas e a renomeia como 'pd' para facilitar o uso.
+import requests  # Usada para fazer solicitações HTTP, como GET ou POST.
+import json  # Permite trabalhar com dados no formato JSON.
+import openai  # Usada para interagir com o GPT-4 da OpenAI.
+import logging  # Usada para registrar informações de log durante a execução do programa.
 
 
 # função que retorna um usuário
@@ -69,11 +70,10 @@ def update_user(user):
     response = requests.put(f"{SDW2023_API_URL}/users/{user['id']}", json=user)
     return True if response.status_code == 200 else False
 
+
 for user in users:
     success = update_user(user)
     print(f"User {user['name']} updated? {success}!")
-
-
 
 
 # Código usado pelo professor na def generate_ai_news
