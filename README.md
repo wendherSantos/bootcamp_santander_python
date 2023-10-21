@@ -2,13 +2,11 @@
 
 ### **Descrição**
 
-Prepare-se para uma jornada prática pelo mundo da Ciência de Dados neste vídeo! Vamos construir um pipeline ETL (Extração, Transformação e Carregamento), demonstrando a relação entre dados, Inteligência Artificial (IA) e APIs. Extração: A aventura começa com uma planilha simples, de onde extrairemos os IDs dos usuários. Depois, usaremos esses IDs para acessar a API da 'Santander Dev Week 2023' e obter dados mais detalhados, um processo que evidencia a versatilidade na coleta de informações em Ciência de Dados. Transformação: Adentraremos o universo da IA com o GPT-4 da OpenAI, transformando esses dados em mensagens personalizadas de marketing. Veremos como a IA pode ser empregada de maneira inovadora e prática! Carregamento: Finalizaremos o processo enviando essas mensagens de volta para a API da 'Santander Dev Week 2023'. Este passo ilustra como dados transformados são reintegrados em sistemas, completando o ciclo de um pipeline ETL.
+Neste vídeo, uma jornada prática explora a Ciência de Dados, abordando extração de dados, transformação com IA e carregamento em APIs. Isso ilustra o ciclo do pipeline ETL.
 
 ### **Entendendo o Desafio**
 
-**Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas** 😎
-
-Vocês já mergulharam a fundo no mundo da Ciência de Dados conosco! Juntos, construímos um pipeline ETL eficaz, começando com a simples extração de IDs de usuários de uma planilha, seguindo para uma transformação inovadora com a IA do GPT-4 da OpenAI, e culminando no carregamento desses dados transformados de volta ao 'Santander Dev Week 2023'. Agora, o desafio é reimaginar esse processo de ETL. Como vocês aplicariam o que aprenderam em um novo domínio de aplicação, sem depender diretamente de APIs externas (caso queiram simplificar)? Pensem nas infinitas possibilidades e domínios que podem ser explorados, e deixem a criatividade fluir!
+Agora, é a sua chance de criar um perfil de destaque na DIO! Aplique o que aprendeu neste projeto prático, crie seu próprio repositório no GitHub e enriqueça seu portfólio. Exploramos juntos a Ciência de Dados, incluindo um pipeline ETL e uso inovador da IA. Agora, desafie-se a aplicar esses conceitos em novos cenários, sem depender de APIs externas. Deixe sua criatividade fluir! 😎
 
 ### **Links Úteis**
 
@@ -31,3 +29,36 @@ Resultados e Aprendizados:
 Minha solução demonstra a aplicação prática de conhecimentos em ciência de dados e IA em um cenário realista. Destaco a importância do tratamento de erros e da documentação para garantir confiabilidade e escalabilidade.
 
 **[Desafio Revolvido](https://github.com/wendherSantos/bootcamp_santander_python/blob/main/02_trilha-python/desafio_eu_resolvido.py)**: Link do desafio resolvido :).
+
+## Criando um Relatório de Vendas Elegante com Power BI
+
+### **Descrição**
+
+Criar um relatório mais elaborado com base na sample financials do Power BI. Os arquivos de dados estão disponíveis no github: https://github.com/julianazanelatto/power_bi_analyst.
+
+Fiquem atentos a: 
+- Estrutura definida 
+- Botões de navegação que fornecem navegabilidade 
+- Segmentadores utilizados e botões com imagem associado 
+- Utilize os indicadores e botões para selecionar diferentes visuais sobre um mesmo assunto 
+
+ Utilize os vídeos de passo a passo para criação dos elementos que compõem a primeira página do relatório: 
+- Objetos que definem o layout do relatório 
+- Gráficos (visuais) e os campos que os compõem 
+- Botões para navegabilidade 
+- Segmentadores de dados 
+
+Lembre-se de: 
+- Criar a segunda página do relatório 
+- Publique o seu relatório no Power BI Service 
+- Caso você tenha familiaridade fique livre para utilizar outros artifícios nos botões e outros 
+- Submenta seu projeto através do link no github 
+
+## **Desafio Resolvido**
+
+Imagens da resolução do desafio:
+
+![Alt text](image.png)
+![Alt text](image-1.png)
+
+**[Desafio Resolvido](https://github.com/wendherSantos/bootcamp_santander_python/tree/main/04_power-bi/project)**: Link do repositório com o desafio resolvido :).
