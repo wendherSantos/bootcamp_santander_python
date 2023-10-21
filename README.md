@@ -13,7 +13,7 @@ Agora, é a sua chance de criar um perfil de destaque na DIO! Aplique o que apre
 1. **[colab.research.google.com](https://colab.research.google.com/drive/1SF_Q3AybFPozCcoFBptDSFbMk-6IVGF-?usp=sharing)**: Link do Notebook criado via Google Colab com todo o código-fonte desenvolvido neste Desafio de Projeto (Lab);
 2. **[github.com/digitalinnovationone/santander-dev-week-2023-api](https://github.com/digitalinnovationone/santander-dev-week-2023-api)**: GitHub com a API desenvolvida para a Santander Dev Week 2023 com informações úteis (incluindo o link do Swagger e dados importantes sobre a disponibilidade da API). Relevante para quem quiser saber mais sobre o processo de criação da API RESTful consumi neste Lab.\\
 
-## **Desafio Resolvido**
+### **Desafio Resolvido**
 
 Neste desafio, melhorei a solução ETL (Extração, Transformação e Carga) para enriquecer os dados de usuários do Santander Dev Week 2023 com mensagens personalizadas sobre investimentos usando o modelo GPT-4 da OpenAI.
 
@@ -54,7 +54,7 @@ Lembre-se de:
 - Caso você tenha familiaridade fique livre para utilizar outros artifícios nos botões e outros 
 - Submenta seu projeto através do link no github 
 
-## **Desafio Resolvido**
+### **Desafio Resolvido**
 
 Imagens da resolução do desafio:
 
